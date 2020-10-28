@@ -8,7 +8,7 @@ const eqArrays = function(array1, array2) {
 };
 
 const assertArraysEqual = function(arrayOne, arrayTwo) {
-  console.log ((eqArrays(arrayOne, arrayTwo)) ? `✅✅✅ ${arrayOne} === ${arrayTwo}` : `🛑🛑🛑 ${arrayOne} !== ${arrayTwo}`);
+  console.log((eqArrays(arrayOne, arrayTwo)) ? `✅✅✅ ${arrayOne} === ${arrayTwo}` : `🛑🛑🛑 ${arrayOne} !== ${arrayTwo}`);
 };
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
